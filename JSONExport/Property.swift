@@ -92,7 +92,9 @@ class Property : Equatable{
     {
         var string : String!
         if forHeaderFile{
-            if lang.headerFileData.instanceVarWithSpeicalDefinition != nil && lang.headerFileData.typesNeedSpecialDefinition.index(of: type) != nil{
+            if lang.headerFileData.instanceVarWithSpeicalDefinition != nil && (lang.headerFileData.typesNeedSpecialDefinition.index(of: type) != nil || type.contains("NSArray")){
+                string = lang.headerFileData.instanceVarWithSpeicalDefinition
+            }else if lang.headerFileData.instanceVarWithSpeicalDefinition != nil && lang.headerFileData.typesNeedSpecialDefinition.index(of: type) != nil{
                 string = lang.headerFileData.instanceVarWithSpeicalDefinition
             }else{
                 string = lang.headerFileData.instanceVarDefinition

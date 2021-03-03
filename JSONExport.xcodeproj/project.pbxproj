@@ -46,6 +46,7 @@
 		E2FA87C21A059AC100648EB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2FA87C01A059AC100648EB6 /* Main.storyboard */; };
 		E2FA87D81A05C16300648EB6 /* FileRepresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FA87D71A05C16300648EB6 /* FileRepresenter.swift */; };
 		E2FA87DA1A05C1BE00648EB6 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FA87D91A05C1BE00648EB6 /* Property.swift */; };
+		F5A4FDAC25EF77F4002E3B80 /* ObjectiveC-YYModel.json in Resources */ = {isa = PBXBuildFile; fileRef = F5A4FDAB25EF77F4002E3B80 /* ObjectiveC-YYModel.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +94,7 @@
 		E2FA87C11A059AC100648EB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2FA87D71A05C16300648EB6 /* FileRepresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileRepresenter.swift; sourceTree = "<group>"; };
 		E2FA87D91A05C1BE00648EB6 /* Property.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		F5A4FDAB25EF77F4002E3B80 /* ObjectiveC-YYModel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "ObjectiveC-YYModel.json"; path = "Supported Languages/ObjectiveC-YYModel.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 				60FB8FE71B9B361600290979 /* Java-Android.json */,
 				60FB8FE81B9B361600290979 /* ObjectiveC-CoreData-iOS.json */,
 				60FB8FE91B9B361600290979 /* ObjectiveC-iOS.json */,
+				F5A4FDAB25EF77F4002E3B80 /* ObjectiveC-YYModel.json */,
 				60FB8FEA1B9B361600290979 /* ObjectiveC-Mac.json */,
 				60FB8FFB1B9B3F6400290979 /* Swift-Realm.json */,
 				60FB8FEB1B9B361600290979 /* Swift-Class.json */,
@@ -316,6 +319,7 @@
 				60FB8FF21B9B361600290979 /* ObjectiveC-CoreData-iOS.json in Resources */,
 				E2FA87C21A059AC100648EB6 /* Main.storyboard in Resources */,
 				E24E443221AA12B800435FE7 /* Swift-Outlaw.json in Resources */,
+				F5A4FDAC25EF77F4002E3B80 /* ObjectiveC-YYModel.json in Resources */,
 				166AF5CE1CEF6C3600516EDD /* Swift-Struct-Gloss.json in Resources */,
 				60FB8FF41B9B361600290979 /* ObjectiveC-Mac.json in Resources */,
 			);
